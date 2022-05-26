@@ -8,7 +8,7 @@ namespace BookletCore
         public string? Email { get; set; }
         public Address? Address { get; set; }
 
-        Customer(string firstName, string lastName, string phoneNumber, string email, Address? address = null)
+        public Customer(string firstName, string lastName, string phoneNumber, string email, Address? address)
         {
             FirstName = firstName;
             LastName = lastName;
