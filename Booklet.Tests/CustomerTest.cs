@@ -1,11 +1,17 @@
+using BookletCore;
 
-namespace Booklet.Tests;
-
-public class CustomerTest 
+namespace Booklet.Tests
 {
-    [Fact]
-    public void FirstTest()
+    public class CustomerTest 
     {
-        Assert.Equal(false, true);
+        [Fact]
+        public void FirstTest()
+        {
+            var Customer = new Customer(
+
+            );
+            
+            Assert.Equal(false, true);
+        }
     }
 }
