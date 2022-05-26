@@ -1,6 +1,6 @@
 namespace BookletCore
 {
-    class Address 
+    public class Address 
     {
         public string StreetName { get; set; }
         public string? AptNumber { get; set; }
